@@ -1,0 +1,9 @@
+urls: 
+  google: http://google.com
+browser: :chrome
+timeouts:
+  deploy_sleep_time: 3
+  deploy_max_timeout: 180
+  short: 15
+  medium: 30
+  long: 45
