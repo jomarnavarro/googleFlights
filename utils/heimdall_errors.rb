@@ -63,3 +63,6 @@ end
 # Defines the error when a web element is not in the correct state.
 class InvalidElementState < HeimdallError
 end
+
+class StepNotImplementedError < HeimdallError
+end
