@@ -2,7 +2,7 @@
 class Config
   class << self
     ENV_CONFIG_VARIABLES = {
-      url: 'GOOGLE_URL',
+      url: 'GOOGLE_FLIGHTS_URL',
       browser: 'BROWSER'
     }.freeze
     PROPS_PATH = './features/support/props.yaml'.freeze

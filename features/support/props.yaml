@@ -1,5 +1,5 @@
 urls: 
-  google: http://google.com
+  google: http://www.google.com/flights/beta
 browser: :chrome
 timeouts:
   deploy_sleep_time: 3
