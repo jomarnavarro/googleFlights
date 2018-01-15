@@ -15,6 +15,14 @@ The small set of requirements can be found [here](https://docs.google.com/docume
 
 A small set of test cases for this mini project can be found in [this document](https://docs.google.com/spreadsheets/d/177fzaEM2rVa2VIYH9jwD69q0PfVeJzvg0vhjXZPukSI/edit?usp=sharing)
 
+## Test execution evidence
+
+The first round of test execution has been completed.  Status has been reported in the scenario checklist above, and references to [screenshots](https://drive.google.com/drive/folders/12kdpsOPzspB8H04MtYpe9uTBm-BEyGE9?usp=sharing) have also been included.
+
+# Test Automation deliverables
+
+The first draft of the test automation deliverables has been created under the __features__ folder,including cucumber features, step definitions, page objects and test configuration.
+
 ## Test automation framework
 
 The project consists of four layers:
@@ -31,7 +39,14 @@ The project consists of four layers:
 
   In order to run the automation framework:
 
- * First install required gems (They're quite a few)
+ * First install ruby and required gems (They're quite a few)
+
+ ```
+ gem install bundler
+
+ bundle install
+ ```
+
  * Run cucumber command or use your favorite IDE.
  
 ## Run command
